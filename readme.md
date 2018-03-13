@@ -8,3 +8,4 @@ To start, first:
   1.b.: meteor add fourseven:scss accounts-password session
   1.c.: meteor remove insecure autopublish (this will allow the app to manage publish and subscribe events correctly when the user is logged in)
 2. To add a Mocha test package, add the following: meteor add cultofcoders:mocha.
+3. Pray. hard.
