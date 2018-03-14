@@ -17,12 +17,12 @@ To start, first:
   1.c.: meteor remove insecure autopublish (this will allow the app to manage publish and subscribe events correctly when the user is logged in)
 3. To add a Mocha test package, add the following:
   3.a.: meteor add cultofcoders:mocha.
-  3.b.: meteor npm install expect --save-dev (server-side testing)
+  3.b.: meteor npm install expect@1 --save-dev
   3.c.: meteor npm install --save-dev enzyme react-addons-test-utils (for client-side testing, React components testing)
   3.d.: meteor npm install --save-dev enzyme-adapter-react-16
-  3.d.: for reference, see the .test.js files:
-    3.d.1.: Server-Side under imports/api folder
-    3.d.2.: Client-Side under imports/ui folder
+  3.e.: for reference, see the .test.js files:
+    3.e.1.: Server-Side under imports/api folder
+    3.e.2.: Client-Side under imports/ui folder
 4. Add to git / github the new app
   4.1.: in the app root folder type: git init
   4.2.: type: git status (to check if the repository has been created)
