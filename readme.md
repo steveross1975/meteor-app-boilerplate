@@ -10,12 +10,15 @@ To start, first:
     0.a.3.: type: ssh-add ~/.ssh/id_rsa to associate the just generated private key to the ssh agent
     0.a.4.: type: less ~/.ssh/id_rsa.pub to grab the public key.
     0.a.5.: in github.com --> settings --> SHS and GPG keys --> add key with a unique name and paste the public key grabbed from the previous point
-1. grab this project from github with the following command: git clone git@github.com:steveross1975/meteor-app-boilerplate.git ./<app-name>
+1. grab this project from github with the following command: git clone git@github.com:steveross1975/meteor-app-boilerplate.git
 2. Type in the CLI the following commands:
   1.a.: meteor npm install
   1.b.: meteor add fourseven:scss accounts-password session
   1.c.: meteor remove insecure autopublish (this will allow the app to manage publish and subscribe events correctly when the user is logged in)
-3. To add a Mocha test package, add the following: meteor add cultofcoders:mocha.
+3. To add a Mocha test package, add the following:
+  3.a.: meteor add cultofcoders:mocha.
+  3.b.: meteor npm install expect --save-dev (server-side testing)
+  3.c.: meteor npm install --save-dev enzyme react-addons-test-utils (for client-side testing, React components testing)
 4. Add to git / github the new app
   4.1.: in the app root folder type: git init
   4.2.: type: git status (to check if the repository has been created)
