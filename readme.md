@@ -20,7 +20,7 @@ To start, first:
   3.b.: meteor npm install expect --save-dev (server-side testing)
   3.c.: meteor npm install --save-dev enzyme react-addons-test-utils (for client-side testing, React components testing)
   3.d.: meteor npm install --save-dev enzyme-adapter-react-16
-  3.d.: grab server side and client side test example files from the notes app
+  3.d.: for reference, see the .test.js files:
     3.d.1.: Server-Side under imports/api folder
     3.d.2.: Client-Side under imports/ui folder
 4. Add to git / github the new app
