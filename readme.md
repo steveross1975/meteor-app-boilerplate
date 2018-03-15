@@ -12,9 +12,10 @@ To start, first:
     0.a.5.: in github.com --> settings --> SHS and GPG keys --> add key with a unique name and paste the public key grabbed from the previous point
 1. grab this project from github with the following command: git clone git@github.com:steveross1975/meteor-app-boilerplate.git
 2. Type in the CLI the following commands:
-  1.a.: meteor npm install
-  1.b.: meteor add fourseven:scss accounts-password session
-  1.c.: meteor remove insecure autopublish (this will allow the app to manage publish and subscribe events correctly when the user is logged in)
+  1.a.: Rename package_vanilla_app.json (referred only to the base app) or package_full_app.json (the one from the full course app) in <b>package.json</b>
+  1.b.: meteor npm install
+  1.c.: meteor add fourseven:scss accounts-password session react-meteor-data
+  1.d.: meteor remove insecure autopublish (this will allow the app to manage publish and subscribe events correctly when the user is logged in)
 3. To add a Mocha test package, add the following:
   3.a.: meteor add cultofcoders:mocha.
   3.b.: meteor npm install expect@1 --save-dev (DO NOT USE JEST)
